@@ -1,0 +1,23 @@
+{
+  "name": "termuxforge",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "TermuxForge — AI coding agent for Android/Termux",
+  "main": "dist/cli.js",
+  "bin": {
+    "forge": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/cli.ts",
+    "start": "node dist/cli.js",
+    "test": "tsx src/test.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
